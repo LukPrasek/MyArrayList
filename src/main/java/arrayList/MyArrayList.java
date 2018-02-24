@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class MyArrayList implements List {
+
+
+
     /**
      * Returns the number of elements in this list.  If this list contains
      * more than <tt>Integer.MAX_VALUE</tt> elements, returns
@@ -14,6 +17,9 @@ public class MyArrayList implements List {
      * @return the number of elements in this list
      */
     public int size() {
+        Object[] table=new Object[10];
+
+
         return 0;
     }
 
